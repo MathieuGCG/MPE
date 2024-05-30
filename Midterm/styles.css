@@ -1,0 +1,145 @@
+body {
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item-left {
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+}
+
+.card{
+    background-color: #FFD400;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card2{
+    background-color: #E2B90E;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card3{
+    background-color: #FFF800;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card4{
+    background-color: #1A8E1C;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+.card5{
+    background-color: #83D839;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+.card6{
+    background-color: #F77819;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+.card7{
+    background-color: #D3964C;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+.card8{
+    background-color: #EFA3CC;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+.card9{
+    background-color: #F4D3A2;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+.card10{
+    background-color: #EAE4C5;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+.card11{
+    background-color: #F4C4B3;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+.card12{
+    background-color: #7FE5D8;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card:hover{
+    background: url('bg.jpg');
+}
+.card2:hover{
+    background: url('bg.jpg');
+}
+.card3:hover{
+    background: url('bg.jpg');
+}
+.card4:hover{
+    background: url('bg.jpg');
+}
+.card5:hover{
+    background: url('bg.jpg');
+}
+.card6:hover{
+    background: url('bg.jpg');
+}
+.card7:hover{
+    background: url('bg.jpg');
+}
+.card8:hover{
+    background: url('bg.jpg');
+}
+.card9:hover{
+    background: url('bg.jpg');
+}
+.card10:hover{
+    background: url('bg.jpg');
+}
+.card11:hover{
+    background: url('bg.jpg');
+}
+.card12:hover{
+    background: url('bg.jpg');
+}
+
